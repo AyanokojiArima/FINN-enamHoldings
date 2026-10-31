@@ -131,7 +131,7 @@ backend/
   app/engine/            classify, digest, signals, results, enrich, alerts, research, analyst
   data/finn.db           pre-warmed cache (downloaded PDFs are not shipped; their text is in the cache)
 frontend/src/            App.tsx, screens/{Brief,Alerts,Research,Settings}.tsx, components/, lib/
-docs/                    WRITEUP.md, BUILD_LOG.md, PROMPTS.md, screenshots/
+docs/                    WRITEUP.md, BUILD_LOG.md, PROMPTS.md, AI-agent prompt history.html, screenshots/
 Dockerfile, deploy-cloudrun.ps1, deploy/make_seed.py, .gcloudignore   container + one-command Cloud Run deploy
 ```
 
