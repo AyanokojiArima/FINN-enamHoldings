@@ -1,0 +1,13 @@
+backend/.venv/
+backend/.env
+backend/data/files/
+backend/data/*.db-shm
+backend/data/*.db-wal
+# backend/data/finn.db is shipped on purpose: a pre-warmed cache so the demo opens instantly.
+# deploy/seed.db is regenerated from it by deploy-cloudrun.ps1 on every deploy.
+deploy/seed.db
+deploy/*.tmp
+frontend/node_modules/
+frontend/tsconfig.tsbuildinfo
+__pycache__/
+*.pyc

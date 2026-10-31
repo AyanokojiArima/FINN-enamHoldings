@@ -1,0 +1,7 @@
+# Store text with LF in the repo whatever the committer's settings; shell scripts must stay LF to run on macOS/Linux.
+* text=auto
+*.sh text eol=lf
+*.png binary
+*.db binary
+# Built frontend bundle: keep it out of GitHub's language stats and diffs.
+frontend/dist/** linguist-generated=true

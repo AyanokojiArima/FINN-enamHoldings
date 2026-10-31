@@ -1,0 +1,10 @@
+.git
+backend/.venv/
+backend/.env
+backend/data/
+**/__pycache__/
+*.pyc
+frontend/node_modules/
+docs/
+*.zip
+deploy/*.tmp

@@ -1,0 +1,16 @@
+# What `gcloud run deploy --source .` uploads to Cloud Build: only what the image needs. Never the .env key file.
+.gcloudignore
+.git
+.gitignore
+.dockerignore
+backend/.venv/
+backend/.env
+backend/data/
+**/__pycache__/
+*.pyc
+frontend/node_modules/
+frontend/src/
+frontend/public/
+docs/
+*.zip
+deploy/*.tmp
